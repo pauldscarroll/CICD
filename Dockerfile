@@ -9,10 +9,10 @@ RUN apt-get update && apt-get install -y jq
 RUN mkdir model raw_data processed_data results
 
 
-ENV RAW_DATA_DIR=/home/jovyan/raw_data
-ENV PROCESSED_DATA_DIR=/home/jovyan/processed_data
-ENV MODEL_DIR=/home/jovyan/model
-ENV RESULTS_DIR=/home/jovyan/results
+ENV RAW_DATA_DIR=/home/pcarrol/raw_data
+ENV PROCESSED_DATA_DIR=/home/pcarrol/processed_data
+ENV MODEL_DIR=/home/pcarrol/model
+ENV RESULTS_DIR=/home/pcarrol/results
 ENV RAW_DATA_FILE=adult.csv
 
 
