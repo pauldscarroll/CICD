@@ -1,2 +1,2 @@
 # CICD
-CICD test with Seldon &amp; Docker
+CICD test with Jenkins &amp; Docker
